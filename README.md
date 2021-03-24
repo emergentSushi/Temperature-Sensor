@@ -1,5 +1,5 @@
 # Temperature-Sensor
-ESP8266 (NodeMCU 1.0 ESP-12e) firmware that pulls temperature and humidty data from SI7021
+ESP8266 (NodeMCU 1.0 ESP-12e) firmware that pulls temperature and humidty data from SI7021 then pushes the data via MQTT to an adafruit IOT endpoint.
 
 Expects "Private.h" to define the following macros:
 
